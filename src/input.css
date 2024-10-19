@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply px-8 py-3 text-xl tracking-wide border border-primary rounded-md transition-all duration-700 relative overflow-hidden;
+}
+
+.button::before {
+  content: "";
+  @apply absolute left-0 w-full -z-10 bg-primary h-0 transition-all duration-700;
+}
+
+.button1::before,
+.button3::before {
+  @apply top-0;
+  border-radius: 0 0 50% 50%;
+}
+
+.button2::before,
+.button4::before {
+  @apply bottom-0;
+  border-radius: 50% 50% 0 0;
+}
+
+.button3::before,
+.button4::before {
+  height: 180%;
+}
+
+.button1,
+.button2 {
+  @apply text-primary;
+}
+
+.button3,
+.button4 {
+  @apply text-dark;
+}
+
+/* Hover Before */
+.button1:hover::before,
+.button2:hover::before {
+  height: 180%;
+}
+
+.button1:hover,
+.button2:hover {
+  @apply text-dark;
+}
+
+.button3:hover::before,
+.button4:hover::before {
+  height: 0%;
+}
+
+.button3:hover,
+.button4:hover {
+  @apply text-primary;
+}

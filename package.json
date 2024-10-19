@@ -1,0 +1,14 @@
+{
+  "name": "tw-button",
+  "version": "1.0.0",
+  "description": "TailwindCSS Button Hover Effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milan Lizriadi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
