@@ -63,6 +63,10 @@ Then you can pick what style do you want:
 
 ![Demo](demo.gif)
 
+## ..or try it yourself:
+<br>
+<a href="https://tailwindcss-button-hover-effect.vercel.app/">Demo</a>
+
 <br>
 <hr>
 <br>
