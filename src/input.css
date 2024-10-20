@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .button {
-  @apply px-8 py-3 text-xl tracking-wide border border-primary rounded-md transition-all duration-700 relative overflow-hidden;
+  @apply px-8 py-3 text-xl tracking-wide border border-primary rounded-md transition-all duration-700 relative overflow-hidden focus:outline-2 focus:outline-primary focus:outline-offset-4;
 }
 
 .button::before {
